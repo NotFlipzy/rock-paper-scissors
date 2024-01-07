@@ -42,4 +42,4 @@ while option != "quit":
 
     print("Your Score: "+ str(myscore), "Computer Score: " + str(computerscore))
     option = input("\nEnter one of the following options (Rock, Paper, Scissors, or Quit):")
-    
+    option = option.lower()
